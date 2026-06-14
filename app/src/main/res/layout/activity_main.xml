@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#F1F2F8">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <net.skyscanner.backpack.text.BpkText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Flight Details"
+            android:textColor="#070A25"
+            android:layout_marginBottom="24dp"
+            style="@style/bpkTextHeading1" />
+
+        <net.skyscanner.backpack.card.BpkCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardCornerStyle="large"
+            app:cardElevation="2dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <net.skyscanner.backpack.text.BpkText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="FLIGHT NUMBER"
+                    style="@style/bpkTextLabelDetail"
+                    android:textColor="#686F7A" />
+
+                <net.skyscanner.backpack.text.BpkText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="EK 928"
+                    style="@style/bpkTextHeading2"
+                    android:textColor="#070A25"
+                    android:layout_marginTop="4dp" />
+            </LinearLayout>
+        </net.skyscanner.backpack.card.BpkCardView>
+
+        <net.skyscanner.backpack.card.BpkCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardCornerStyle="large"
+            app:cardElevation="2dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <net.skyscanner.backpack.text.BpkText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DEPARTURE"
+                    style="@style/bpkTextLabelDetail"
+                    android:textColor="#0062E3" />
+
+                <net.skyscanner.backpack.text.BpkText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CAI (Cairo Intl.)"
+                    style="@style/bpkTextHeading2"
+                    android:layout_marginTop="4dp" />
+
+                <net.skyscanner.backpack.text.BpkText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="04:15 PM"
+                    style="@style/bpkTextBodyDefault"
+                    android:textColor="#686F7A"
+                    android:layout_marginTop="2dp" />
+            </LinearLayout>
+        </net.skyscanner.backpack.card.BpkCardView>
+
+        <net.skyscanner.backpack.card.BpkCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardCornerStyle="large"
+            app:cardElevation="2dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <net.skyscanner.backpack.text.BpkText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ARRIVAL"
+                    style="@style/bpkTextLabelDetail"
+                    android:textColor="#00A699" />
+
+                <net.skyscanner.backpack.text.BpkText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DXB (Dubai Intl.)"
+                    style="@style/bpkTextHeading2"
+                    android:layout_marginTop="4dp" />
+
+                <net.skyscanner.backpack.text.BpkText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="09:45 PM"
+                    style="@style/bpkTextBodyDefault"
+                    android:textColor="#686F7A"
+                    android:layout_marginTop="2dp" />
+            </LinearLayout>
+        </net.skyscanner.backpack.card.BpkCardView>
+
+    </LinearLayout>
+</ScrollView>
